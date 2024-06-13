@@ -151,3 +151,92 @@
   font-size: 16px;
   color: #666;
 }
+.people-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.principal-investigator {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.image-section {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.details-section {
+  flex: 2;
+}
+
+.details-section h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.details-section h3 {
+  color: #2c3e50;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.details-section p {
+  color: #2c3e50;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.postdocs {
+  margin-top: 20px;
+}
+
+.postdocs h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.postdocs-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.postdoc-card {
+  flex: 1;
+  max-width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.postdoc-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.postdoc-title {
+  color: #2c3e50;
+  font-size: 16px;
+  margin-bottom: 10px;
+}

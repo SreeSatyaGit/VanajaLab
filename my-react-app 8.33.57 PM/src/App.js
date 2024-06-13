@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Link, Routes, useLocation } from 'react
 import insulin from './images/insulin.png'; 
 import Publications from './Publications.js';  
 import Main from './Main.js'
+import People from './people.js'
+import Contact from './contact.js';
 
 function App() {
   const handleBrandClick = () => {
@@ -12,7 +14,6 @@ function App() {
   const[pathname,setPathname] = React.useState("")
   React.useEffect(()=>{setPathname(window.location.pathname)},[window.location.pathname])
 
-console.log("location",window.location.pathname)
   return (
     <Router>
       <div className="App">
@@ -34,6 +35,9 @@ console.log("location",window.location.pathname)
         <Routes>
           <Route path='/' element={<Main/>}/>
           <Route path="/publications" element={<Publications />} />
+          <Route path="/people" element={<People />} />
+          <Route path="/tools" element={<Publications />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
 
         </main>
