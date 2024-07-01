@@ -14,6 +14,7 @@ function App() {
   const[pathname,setPathname] = React.useState("")
   React.useEffect(()=>{setPathname(window.location.pathname)},[window.location.pathname])
 
+
   return (
     <Router>
       <div className="App">
@@ -24,7 +25,7 @@ function App() {
             </button>
             <div className="navbar-links">
               <Link to="/" className="active">ABOUT</Link>
-              <Link to="/publications">Publications</Link>
+              <Link to="/publications" >Publications</Link>
               <Link to="/people">PEOPLE</Link>
               <Link to="/tools">TOOLS</Link>
               <Link to="/contact">CONTACT US</Link>
