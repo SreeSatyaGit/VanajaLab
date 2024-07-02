@@ -12,37 +12,41 @@ function App() {
     alert('Vanaja Lab button clicked!');
   };
   const[pathname,setPathname] = React.useState("")
-  React.useEffect(()=>{setPathname(window.location.pathname)},[window.location.pathname])
+  useEffect(()=>{setPathname(window.location.pathname)},[window.location.pathname ])
 
+  console.log(pathname,'pathname')
 
+  const handleLinkClick = (path) => {
+    if (pathname !== path) {
+      window.location.href = path;
+    }
+  };
   return (
     <Router>
       <div className="App">
         <header className="App-header">
           <nav className="navbar">
-            <button className="navbar-brand" onClick={handleBrandClick}>
-              <span className="highlight">Vanaja Lab</span>
+            <button className="navbar-brand" onClick={() => handleLinkClick('/')}>
+              <span className="highlight">Vanaja Labs</span>
             </button>
             <div className="navbar-links">
-              <Link to="/" className="active">ABOUT</Link>
-              <Link to="/publications" >Publications</Link>
-              <Link to="/people">PEOPLE</Link>
-              <Link to="/tools">TOOLS</Link>
-              <Link to="/contact">CONTACT US</Link>
-            </div> 
+              <Link to="/" onClick={() => handleLinkClick('/')} className={pathname === '/' ? 'active' : ''}>ABOUT</Link>
+              <Link to="/publications" onClick={() => handleLinkClick('/publications')} className={pathname === '/publications' ? 'active' : ''}>Publications</Link>
+              <Link to="/people" onClick={() => handleLinkClick('/people')} className={pathname === '/people' ? 'active' : ''}>PEOPLE</Link>
+              <Link to="/tools" onClick={() => handleLinkClick('/tools')} className={pathname === '/tools' ? 'active' : ''}>TOOLS</Link>
+              <Link to="/contact" onClick={() => handleLinkClick('/contact')} className={pathname === '/contact' ? 'active' : ''}>CONTACT US</Link>
+            </div>
           </nav>
         </header>
         <main>
-        <Routes>
-          <Route path='/' element={<Main/>}/>
-          <Route path="/publications" element={<Publications />} />
-          <Route path="/people" element={<People />} />
-          <Route path="/tools" element={<Publications />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-
+          <Routes>
+            <Route path='/' element={<Main />} />
+            <Route path="/publications" element={<Publications />} />
+            <Route path="/people" element={<People />} />
+            <Route path="/tools" element={<Publications />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
         </main>
-
       </div>
     </Router>
   );
