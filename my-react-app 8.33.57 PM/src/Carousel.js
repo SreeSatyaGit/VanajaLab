@@ -21,11 +21,9 @@ const ImageCarousel = () => {
         </div>
         <div>
           <img src="https://via.placeholder.com/800x400?text=Image+2" alt="Image 2" />
-          <p className="legend">Image 2</p>
         </div>
         <div>
-          <img src="https://via.placeholder.com/800x400?text=Image+3" alt="Image 3" />
-          <p className="legend">Image 3</p>
+          <img src="https://via.placeholder.com/800x400?text=Image+3" alt="Image 3" />  
         </div>
       </Carousel>
     );
