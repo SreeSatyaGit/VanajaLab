@@ -2,10 +2,10 @@ import React from 'react';
 import kiran from './images/Kiran.png';
 import Satya from './images/Satya.png';  // Add the actual path to Jeff's image
 import Radha from './images/Radha.png';  // Add the actual path to Daniel's image
-import Griffin from './images/Griffin T Scott.jpeg';  // Add the actual path to Emily's image
+import Griffin from './images/Griffin T Scott.png';  // Add the actual path to Emily's image
 import jose from './images/jose.png'
 import logan from './images/logan.png'
-import shabeer from'./images/Shabeer.png'
+import shabeer from'./images/shabeer.png'
 function People() {
 
   const collaborators = [
