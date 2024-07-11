@@ -4,6 +4,7 @@ import Satya from './images/Satya.png';  // Add the actual path to Jeff's image
 import Radha from './images/Radha.png';  // Add the actual path to Daniel's image
 import Griffin from './images/Griffin T Scott.jpeg';  // Add the actual path to Emily's image
 import jose from './images/jose.png'
+import logan from './images/logan.png'
 function People() {
 
   const collaborators = [
@@ -26,7 +27,7 @@ function People() {
       name: "Logan Schwartz",
       title: "Post-Doctoral Scholar",
       description: "Daniel Dorman earned his B.S. in biomedical engineering from LeTourneau University in Longview, Texas, and his PhD in neuroscience from George Mason University. His doctoral dissertation focused on developing biophysically detailed computational models of individual neurons of the...",
-      // img: daniel
+      img: logan
     },
   ];
 
@@ -49,7 +50,7 @@ function People() {
     {
       name: "Dhanush Aditya Balamurugan",
       title: "Post-Doctoral Scholar",
-      description: "Daniel Dorman earned his B.S. in biomedical engineering from LeTourneau University in Longview, Texas, and his PhD in neuroscience from George Mason University. His doctoral dissertation focused on developing biophysically detailed computational models of individual neurons of the...",
+      description: "Deep Learning Guy....",
       // img: daniel
     },
   ];
