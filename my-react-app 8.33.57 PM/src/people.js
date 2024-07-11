@@ -5,6 +5,7 @@ import Radha from './images/Radha.png';  // Add the actual path to Daniel's imag
 import Griffin from './images/Griffin T Scott.jpeg';  // Add the actual path to Emily's image
 import jose from './images/jose.png'
 import logan from './images/logan.png'
+import shabeer from'./images/Shabeer.png'
 function People() {
 
   const collaborators = [
@@ -21,7 +22,7 @@ function People() {
       name: "Shabeer Rather",
       title: "Post-Doctoral Scholar",
       description: "Dr. Jeff Craley earned his PhD in Electrical and Computer Engineering from Johns Hopkins University in 2022. His dissertation research focused on developing machine learning algorithms for seizure localization in scalp EEG recordings.",
-      // img: jeff
+      img: shabeer
     },
     {
       name: "Logan Schwartz",
