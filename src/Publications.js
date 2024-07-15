@@ -2,10 +2,6 @@ import React from 'react';
 
 function Publications() {
 
-
-
-
-
   return (
     <div className="publications">
     <div className="post">
