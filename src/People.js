@@ -5,7 +5,7 @@ import Radha from './images/Radha.png';
 import Griffin from './images/Griffin T Scott.png';  
 import jose from './images/jose.png'
 import logan from './images/logan.png'
-import shabeer from'./images/shabeer.png'
+import shabeer from './images/Shabeer.png'
 function People() {
 
   const collaborators = [
@@ -21,14 +21,14 @@ function People() {
     {
       name: "Shabeer Rather",
       title: "Post-Doctoral Scholar",
-      description: "Dr. Jeff Craley earned his PhD in Electrical and Computer Engineering from Johns Hopkins University in 2022. His dissertation research focused on developing machine learning algorithms for seizure localization in scalp EEG recordings.",
-      img: shabeer
+      description: "Shabeer is a Postdoctoral Research Associate in the Bioengineering Department at the Roux Institute, Northeastern University. He earned his PhD. in Biochemistry from Punjab University, Chandigarh, India, and his bachelor's degree from the University of Kashmir, Srinagar. At the Roux Institute, his research focuses on signaling networks involved in cancers and the mechanisms that contribute to the emergence of resistance to cancer therapeutics.",
+      //img: shabeer
     },
     {
       name: "Logan Schwartz",
       title: "Post-Doctoral Scholar",
-      description: "Daniel Dorman earned his B.S. in biomedical engineering from LeTourneau University in Longview, Texas, and his PhD in neuroscience from George Mason University. His doctoral dissertation focused on developing biophysically detailed computational models of individual neurons of the...",
-      img: logan
+      description: " Working on it..." ,     
+       img: logan
     },
   ];
 
@@ -45,8 +45,8 @@ function People() {
     {
       name: "Satya Bharadwaja Nandivada",
       title: "Research Assistant/ Coop Student",
-      description: "Dr. Jeff Craley earned his PhD in Electrical and Computer Engineering from Johns Hopkins University in 2022. His dissertation research focused on developing machine learning algorithms for seizure localization in scalp EEG recordings.",
-       img: Satya
+      description: "Working on it...",       
+      img: Satya
     },
     {
       name: "Dhanush Aditya Balamurugan",
@@ -57,12 +57,7 @@ function People() {
   ];
 
   const Alumni = [
-    {
-      name: "Josephine Patten",
-      title: "Summer Intern",
-      description: "I am Josephine Patten, an undergrad at Worcester Polytechnic Institute graduating in the spring of 2024 studying biology/biotechnology. I am interested in cancer, molecular, or cellular biology research on human health and diseases. ",       
-      img: jose
-    },
+    
   ];
   return (
     <div className="people-container">
@@ -77,6 +72,7 @@ function People() {
         <div className="details-section">
           <h2>Principal Investigator</h2>
           <h3>Dr. Kiran Vanaja</h3>
+          <h4>Assistant Research Scientist</h4>
           <p>
             Kiran Vanaja is a research assistant professor in the Life Sciences and Medical Research Group at the Roux Institute. He also holds a research assistant professor position with the Bioengineering department of Northeastern University, Boston. Vanaja is a systems biologist and his research at the Roux Institute focuses on building computational mathematical models of signal transduction networks that are implicated in diseases like cancer and type-2 diabetes. By building these models ground-up on an in-vitro molecular interaction scale, following it up with a model system (animal) in-vivo model, Vanaja plans on ultimately implementing personalized patient specific organismic computational models that could predict the trajectory of diseases and possible outcomes achieved by available therapy. This research focus of Vanaja’s thus complements the personalized computational medicine approach being pioneered here at the Roux Institute.
           </p>
