@@ -29,20 +29,20 @@ function App() {
             </button>
             <div className="navbar-links">
               <Link to="/" onClick={() => handleLinkClick('/')} className={pathname === '/' ? 'active' : ''}>ABOUT</Link>
-              <Link to="/publications" onClick={() => handleLinkClick('/publications')} className={pathname === '/publications' ? 'active' : ''}>Publications</Link>
-              <Link to="/people" onClick={() => handleLinkClick('/people')} className={pathname === '/people' ? 'active' : ''}>PEOPLE</Link>
+              <Link to="/Publications" onClick={() => handleLinkClick('/publications')} className={pathname === '/publications' ? 'active' : ''}>Publications</Link>
+              <Link to="/People" onClick={() => handleLinkClick('/people')} className={pathname === '/people' ? 'active' : ''}>PEOPLE</Link>
               <Link to="/tools" onClick={() => handleLinkClick('/tools')} className={pathname === '/tools' ? 'active' : ''}>TOOLS</Link>
-              <Link to="/contact" onClick={() => handleLinkClick('/contact')} className={pathname === '/contact' ? 'active' : ''}>CONTACT US</Link>
+              <Link to="/Contact" onClick={() => handleLinkClick('/contact')} className={pathname === '/contact' ? 'active' : ''}>CONTACT US</Link>
             </div>
           </nav>
         </header>
         <main>
           <Routes>
             <Route path='/' element={<Main />} />
-            <Route path="/publications" element={<Publications />} />
-            <Route path="/people" element={<People />} />
+            <Route path="/Publications" element={<Publications />} />
+            <Route path="/People" element={<People />} />
             <Route path="/tools" element={<Publications />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/Contact" element={<Contact />} />
           </Routes>
         </main>
       </div>
