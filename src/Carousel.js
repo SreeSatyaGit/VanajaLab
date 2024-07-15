@@ -15,6 +15,7 @@ const ImageCarousel = () => {
         stopOnHover={true}
         swipeable={true}
         emulateTouch={true}
+        dynamicHeight = {true}
       >
         <div>
           <img src={insulin}  />
