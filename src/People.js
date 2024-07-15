@@ -3,9 +3,8 @@ import kiran from './images/Kiran.png';
 import Satya from './images/Satya.png';  
 import Radha from './images/Radha.png'; 
 import Griffin from './images/Griffin T Scott.png';  
-import jose from './images/jose.png'
+
 import logan from './images/logan.png'
-import shabeer from './images/Shabeer.png'
 function People() {
 
   const collaborators = [
