@@ -1,6 +1,6 @@
 import React from 'react';
 import kiran from './images/Kiran.png';
-import Satya from './images/Satya.png';  
+import Satya from './images/Satya2.png';  
 import Radha from './images/Radha.png'; 
 import Griffin from './images/Griffin T Scott.png';
 import Dhanu from './images/Dhanush.png'  
