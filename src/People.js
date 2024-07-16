@@ -50,7 +50,7 @@ function People() {
     },
     {
       name: "Dhanush Aditya Balamurugan",
-      title: "Post-Doctoral Scholar",
+      title: "Research Assistant",
       description: "Deep Learning Guy....",
       img: Dhanu
     },
