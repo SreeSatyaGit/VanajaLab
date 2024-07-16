@@ -2,7 +2,8 @@ import React from 'react';
 import kiran from './images/Kiran.png';
 import Satya from './images/Satya.png';  
 import Radha from './images/Radha.png'; 
-import Griffin from './images/Griffin T Scott.png';  
+import Griffin from './images/Griffin T Scott.png';
+import Dhanu from './images/Dhanush.png'  
 
 import logan from './images/logan.png'
 function People() {
@@ -51,7 +52,7 @@ function People() {
       name: "Dhanush Aditya Balamurugan",
       title: "Post-Doctoral Scholar",
       description: "Deep Learning Guy....",
-      // img: daniel
+      img: Dhanu
     },
   ];
 
