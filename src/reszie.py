@@ -2,14 +2,15 @@ from PIL import Image
 import os
 
 # Directory containing the .png files
-input_directory = "./images/"
+image = './images/Shabeer.png'
+input_directory = "./images"
 output_directory = './resizeImages'
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_directory, exist_ok=True)
 
 # Iterate over all files in the input directory
-for filename in os.listdir(input_directory):
+for filename in os.listdir(input_directory) or image:
     if filename.endswith('.png'):
         # Open an image file
         with Image.open(os.path.join(input_directory, filename)) as img:

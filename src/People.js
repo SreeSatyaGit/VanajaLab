@@ -3,6 +3,7 @@ import kiran from './images/Kiran.png';
 import Satya from './images/Satya2.png';  
 import Radha from './images/Radha.png'; 
 import Griffin from './images/Griffin T Scott.png';
+import shabeer from './images/Shabeer.png'
 import Dhanu from './images/Dhanush.png'  
 
 import logan from './images/logan.png'
@@ -22,7 +23,7 @@ function People() {
       name: "Shabeer Rather",
       title: "Post-Doctoral Scholar",
       description: "Shabeer is a Postdoctoral Research Associate in the Bioengineering Department at the Roux Institute, Northeastern University. He earned his PhD. in Biochemistry from Punjab University, Chandigarh, India, and his bachelor's degree from the University of Kashmir, Srinagar. At the Roux Institute, his research focuses on signaling networks involved in cancers and the mechanisms that contribute to the emergence of resistance to cancer therapeutics.",
-      //img: shabeer
+      img: shabeer
     },
     {
       name: "Logan Schwartz",
