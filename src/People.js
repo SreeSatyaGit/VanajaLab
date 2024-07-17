@@ -73,7 +73,7 @@ function People() {
         <div className="details-section">
           <h2>Principal Investigator</h2>
           <h3>Dr. Kiran Vanaja</h3>
-          <h4>Assistant Research Scientist</h4>
+          <h4>Research Assistant Professor </h4>
           <p>
             Kiran Vanaja is a research assistant professor in the Life Sciences and Medical Research Group at the Roux Institute. He also holds a research assistant professor position with the Bioengineering department of Northeastern University, Boston. Vanaja is a systems biologist and his research at the Roux Institute focuses on building computational mathematical models of signal transduction networks that are implicated in diseases like cancer and type-2 diabetes. By building these models ground-up on an in-vitro molecular interaction scale, following it up with a model system (animal) in-vivo model, Vanaja plans on ultimately implementing personalized patient specific organismic computational models that could predict the trajectory of diseases and possible outcomes achieved by available therapy. This research focus of Vanaja’s thus complements the personalized computational medicine approach being pioneered here at the Roux Institute.
           </p>
