@@ -12,7 +12,7 @@ function People() {
   const collaborators = [
     {
       name: "Radha Mukherjee",
-      title: "Associate Scientist",
+      title: "Associate Scientist at Memorial Sloan Kettering Cancer Center",
       description: "Investigate regulations of kinases and phosphatases within the PI3K-AKT-PTEN network that are important for maintenance of homeostasis. The very same mechanisms play a role in cancer evolution, resistance to targeted therapy of PI3K pathway inhibitors in breast cancer and in the etiology of insulin resistance and Type 2 Diabetes, thereby understanding their regulation allows us to devise better combination therapies in cancer and type 2 diabetes.",
       img: Radha
     },
