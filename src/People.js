@@ -5,6 +5,7 @@ import Radha from './images/Radha.png';
 import Griffin from './images/Griffin T Scott.png';
 import shabeer from './images/Shabeer.png'
 import Dhanu from './images/Dhanush.png'  
+import jose from './images/jose_sc.png'
 
 import logan from './images/logan.png'
 function People() {
@@ -52,12 +53,19 @@ function People() {
     {
       name: "Dhanush Aditya Balamurugan",
       title: "Research Assistant",
-      description: "Deep Learning Guy....",
+      description: "Deep Learning Guy...",
       img: Dhanu
     },
   ];
 
   const Alumni = [
+    {
+      name: "Josephine Patten",
+      title: "Summer Intern",
+      description: "I am Josephine Patten, an undergrad at Worcester Polytechnic Institute graduating in the spring of 2024 studying biology/biotechnology. I am interested in cancer, molecular, or cellular biology research on human health and diseases.",       
+      img: jose
+    },
+ 
     
   ];
   return (
@@ -141,14 +149,19 @@ function People() {
         <div className="postdocs-grid">
           {Alumni.map((postdoc, index) => (
             <div key={index} className="postdoc-card">
-              <img src={postdoc.img} alt={postdoc.name} className="postdoc-image" />
+              {postdoc.img && (
+                <img src={postdoc.img} alt={postdoc.name} className="postdoc-image" />
+              )}
               <h3>{postdoc.name}</h3>
               <p className="postdoc-title">{postdoc.title}</p>
-              <p>{postdoc.description}</p>
+              {postdoc.description && (
+                <p>{postdoc.description}</p>
+              )}
             </div>
           ))}
         </div>
       </div>
+
     </div>
   );
 }
