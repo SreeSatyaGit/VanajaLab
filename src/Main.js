@@ -14,7 +14,7 @@ function Main() {
 
             Exploring partnership opportunities, Vanaja is building a multiscale organismic model of insulin driven glucose absorption in whole body models. By training the model on high throughput ‘omics data, Vanaja plans on predicting the trajectory of hyper insulinemia and glycemia in individuals and by using detailed molecular interactions plans on finding possible nodes of intervention to help up with prediabetes and insulin resistance.
          
-            Vanaja is also collaborating with the Amal group at the Roux Institute to develop AI based Deep Learning/Machine Learning tools to address fundamental biological problems, beginning with developing a mapping for immuno-phenotypes. Those who are interested in post-doc and graduate student positions are encouraged to reach out.
+            Those who are interested in post-doc and graduate student positions are encouraged to reach out.
           </p>
       </div>
       <section className="benefits">
