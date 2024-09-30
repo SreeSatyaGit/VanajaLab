@@ -45,9 +45,14 @@ function People() {
 
   const GradStudents = [
     {
-      name: "Satya Bharadwaja Nandivada",
+      name: "SreeSatya  Nandivada",
       title: "Research Assistant/ Coop Student",
-      description: "Working on it...",       
+      description: (
+        <span>
+          I'm currently pursuing my master's in electrical and computer engineering at Northeastern University. At Vanaja Labs, I focus on developing mathematical models for cell signaling pathways and implement computational methods for Immuno-phenotyping and maintain the Vanaja Labs website. <br /><br />
+          Connect with me on <a href="https://www.linkedin.com/in/sreesatya-nandivada-a5902b179" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+        </span>
+      ),
       img: Satya
     },
     {
