@@ -54,13 +54,7 @@ function People() {
         </span>
       ),
       img: Satya
-    },
-    {
-      name: "Dhanush Aditya Balamurugan",
-      title: "Research Assistant",
-      description: "Working on it..",
-      img: Dhanu
-    },
+    }
   ];
 
   const Alumni = [
