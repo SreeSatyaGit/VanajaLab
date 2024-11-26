@@ -1,7 +1,7 @@
 // Contact.js
 import React from 'react';
 
-function ICSB() {
+function COFERENCES() {
   return (
     <div>
       <header style={{ backgroundColor: '#900000', color: 'white', textAlign: 'center', padding: '2rem 1rem' }}>
@@ -48,4 +48,4 @@ function ICSB() {
   );
 }
 
-export default ICSB;
+export default COFERENCES;

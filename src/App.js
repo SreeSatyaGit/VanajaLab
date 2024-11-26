@@ -6,7 +6,7 @@ import Main from './Main.js'
 import People from './People.js'
 import Contact from './Contact.js';
 import News from './News.js';
-import ICSB from'./ICSB.js';
+import Conferences from'./Conferences.js';
 
 function App() {
   const handleBrandClick = () => {
@@ -35,7 +35,7 @@ function App() {
               <Link to="/People" onClick={() => handleLinkClick('/people')} className={pathname === '/people' ? 'active' : ''}>PEOPLE</Link>
                <Link to="/News" onClick={() => handleLinkClick('/News')} className={pathname === '/news' ? 'active' : ''}>NEWS</Link> 
               <Link to="/Contact" onClick={() => handleLinkClick('/contact')} className={pathname === '/contact' ? 'active' : ''}>CONTACT US</Link>
-              <Link to="/Contact" onClick={() => handleLinkClick('/ICSB')} className={pathname === '/ICSB' ? 'active' : ''}>ICSB</Link>
+              <Link to="/Conferences" onClick={() => handleLinkClick('/conferences')} className={pathname === '/conferences' ? 'active' : ''}>COFERENCES</Link>
             </div>
           </nav>
         </header>
@@ -46,7 +46,7 @@ function App() {
             <Route path="/People" element={<People />} />
             <Route path="/News" element={<News />} />
             <Route path="/Contact" element={<Contact />} />
-            <Route path="/ICSB" element={<ICSB/>} />
+            <Route path="/conferences" element={<Conferences/>} />
           </Routes>
         </main>
       </div>
