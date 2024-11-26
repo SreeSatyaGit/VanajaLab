@@ -33,7 +33,7 @@ function App() {
               <Link to="/" onClick={() => handleLinkClick('/')} className={pathname === '/' ? 'active' : ''}>ABOUT</Link>
               <Link to="/Publications" onClick={() => handleLinkClick('/publications')} className={pathname === '/publications' ? 'active' : ''}>Publications</Link>
               <Link to="/People" onClick={() => handleLinkClick('/people')} className={pathname === '/people' ? 'active' : ''}>PEOPLE</Link>
-               <Link to="/News" onClick={() => handleLinkClick('/News')} className={pathname === '/news' ? 'active' : ''}>NEWS</Link> 
+               
               <Link to="/Contact" onClick={() => handleLinkClick('/contact')} className={pathname === '/contact' ? 'active' : ''}>CONTACT US</Link>
               <Link to="/Conferences" onClick={() => handleLinkClick('/conferences')} className={pathname === '/conferences' ? 'active' : ''}>CONFERENCES</Link>
             </div>
@@ -44,7 +44,7 @@ function App() {
             <Route path='/' element={<Main />} />
             <Route path="/Publications" element={<Publications />} />
             <Route path="/People" element={<People />} />
-            <Route path="/News" element={<News />} />
+       
             <Route path="/Contact" element={<Contact />} />
             <Route path="/conferences" element={<Conferences/>} />
           </Routes>
