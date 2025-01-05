@@ -54,6 +54,16 @@ function People() {
         </span>
       ),
       img: Satya
+    },
+    {
+      name: "Dhanush Aditya",
+      title: "Research Assistant",
+      description: (
+        <span>
+          Deep Learning expertise
+        </span>
+      ),
+      img: Dhanu
     }
   ];
 
