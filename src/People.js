@@ -29,7 +29,7 @@ function People() {
     {
       name: "Logan Schwartz",
       title: "Post-Doctoral Scholar",
-      description: " Working on it..." ,     
+      description: " Logan Schwartz is a Postdoctoral Researcher in the lab, where her current work uses a systems biology approach to explore the complex signaling networks involved in diseases like cancer and Type 2 diabetes. Her previous research expertise includes hematopoietic stem cells, aging, immunology, and hematologic malignancies such as acute myeloid leukemia. Dr. Schwartz earned her Ph.D. in Mammalian Genetics from Tufts University in May 2024 and is committed to leveraging her research to enhance our understanding of these challenging health conditions and contribute to therapeutic advancements that could improve patient outcomes. " ,     
        img: logan
     },
   ];
