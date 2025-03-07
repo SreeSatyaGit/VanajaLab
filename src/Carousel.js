@@ -22,7 +22,7 @@ const ImageCarousel = () => {
           <img src={insulin}  />
         </div>
         <div>
-          <img src={resist} alt="Image 2" />
+          <img src={resist} />
         </div>
         <div>
           <img src="https://via.placeholder.com/800x400?text=Image+3" alt="Image 3" />  
