@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import insulin from './images/insulin.png'; 
+import resist from './images/Gov_Resist.png';
 
 const ImageCarousel = () => {
     return (
@@ -21,7 +22,7 @@ const ImageCarousel = () => {
           <img src={insulin}  />
         </div>
         <div>
-          <img src="https://via.placeholder.com/800x400?text=Image+2" alt="Image 2" />
+          <img src={resist} alt="Image 2" />
         </div>
         <div>
           <img src="https://via.placeholder.com/800x400?text=Image+3" alt="Image 3" />  
