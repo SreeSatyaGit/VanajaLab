@@ -6,6 +6,7 @@ import Griffin from './images/Griffin T Scott.png';
 import shabeer from './images/Shabeer.png'
 import Dhanu from './images/Dhanush.png'  
 import jose from './images/jose_sc.png'
+import Austin from './images/Austin.png'
 
 import logan from './images/logan.png'
 function People() {
@@ -41,6 +42,12 @@ function People() {
       description: "I am currently in the final semester of the MS in Bioinformatics program here at the Roux Institute. In 2021 I graduated from McGill University with a BSc in Molecular and Cell Biology and a BA in History. I seek to use a bioinformatic approach to uncover the processes which govern resiliency, adaptability, and longevity and I have a passion for understanding the impacts of new medical technologies on society historically and in the present. ",
       img: Griffin
     },
+    {
+      name: "Austin marty ",
+      title: "Phd Student",
+      description: "  ",
+      img: Austin
+    },
   ];
 
   const GradStudents = [
@@ -54,16 +61,6 @@ function People() {
         </span>
       ),
       img: Satya
-    },
-    {
-      name: "Dhanush Aditya",
-      title: "Research Assistant",
-      description: (
-        <span>
-          Deep Learning expertise
-        </span>
-      ),
-      img: Dhanu
     }
   ];
 
@@ -73,6 +70,12 @@ function People() {
       title: "Summer Intern",
       description: "I am Josephine Patten, an undergrad at Worcester Polytechnic Institute graduating in the spring of 2024 studying biology/biotechnology. I am interested in cancer, molecular, or cellular biology research on human health and diseases.",       
       img: jose
+    },
+    {
+      name: "Cory-James Pugne-Andenoro",
+      title: "Summer Intern",
+      description: "",       
+      img: null
     },
  
     
