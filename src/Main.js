@@ -25,10 +25,7 @@ function Main() {
             <h3>Mathematical Modeling of Signaling Networks</h3>
           </div>
           <div className="benefit-card">
-            <h3>Cancer and Diabetes Signal Transduction</h3>
-          </div>
-          <div className="benefit-card">
-            <h3>Acute</h3>
+            <h3>Systems understanding of cancer and diabetes</h3>
           </div>
         </div>
       </section>
