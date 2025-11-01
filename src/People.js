@@ -57,7 +57,7 @@ function People() {
       description: (
         <span>
           I'm currently pursuing my master's in electrical and computer engineering at Northeastern University. At Vanaja Labs, I focus on developing mathematical models for cell signaling pathways and implement computational methods for Immuno-phenotyping and maintain the Vanaja Labs website. <br /><br />
-          <a href="https://deepomap.com/satya" target="_blank" rel="noopener noreferrer">Website</a>
+          Find me at <a href="https://deepomap.com/satya" target="_blank" rel="noopener noreferrer">Website</a>
         </span>
       ),
       img: Satya
