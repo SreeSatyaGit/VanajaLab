@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 # Directory containing the .png files
-image = './images/Shabeer.png'
+image = './images/jose_sc.png'
 input_directory = "./images"
 output_directory = './resizeImages'
 

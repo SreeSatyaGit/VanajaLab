@@ -18,17 +18,17 @@ function Main() {
           </p>
       </div>
       <section className="benefits">
-        <h2>Areas of Research</h2>
+        <h2>Systems and Computational Biology</h2>
         <div className="benefits-cards">
           <div className="benefit-card">
 
-            <h3>Systems and Computational Biology</h3>
-          </div>
-          <div className="benefit-card">
             <h3>Mathematical Modeling of Signaling Networks</h3>
           </div>
           <div className="benefit-card">
             <h3>Cancer and Diabetes Signal Transduction</h3>
+          </div>
+          <div className="benefit-card">
+            <h3>Acute</h3>
           </div>
         </div>
       </section>

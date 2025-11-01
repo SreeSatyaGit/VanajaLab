@@ -31,7 +31,7 @@ function People() {
       name: "Logan Schwartz",
       title: "Post-Doctoral Scholar",
       description: " Logan Schwartz is a Postdoctoral Researcher in the lab, where her current work uses a systems biology approach to explore the complex signaling networks involved in diseases like cancer and Type 2 diabetes. Her previous research expertise includes hematopoietic stem cells, aging, immunology, and hematologic malignancies such as acute myeloid leukemia. Dr. Schwartz earned her Ph.D. in Mammalian Genetics from Tufts University in May 2024 and is committed to leveraging her research to enhance our understanding of these challenging health conditions and contribute to therapeutic advancements that could improve patient outcomes. " ,     
-       img: logan
+      img: logan
     },
   ];
 
@@ -41,6 +41,12 @@ function People() {
       title: "Phd Student",
       description: "I am currently in the final semester of the MS in Bioinformatics program here at the Roux Institute. In 2021 I graduated from McGill University with a BSc in Molecular and Cell Biology and a BA in History. I seek to use a bioinformatic approach to uncover the processes which govern resiliency, adaptability, and longevity and I have a passion for understanding the impacts of new medical technologies on society historically and in the present. ",
       img: Griffin
+    },
+    {
+      name: "Austin Marty",
+      title: "PhD Student",
+      description: "",
+      img: Austin
     }
   ];
 
@@ -51,7 +57,7 @@ function People() {
       description: (
         <span>
           I'm currently pursuing my master's in electrical and computer engineering at Northeastern University. At Vanaja Labs, I focus on developing mathematical models for cell signaling pathways and implement computational methods for Immuno-phenotyping and maintain the Vanaja Labs website. <br /><br />
-          Connect with me on <a href="https://www.linkedin.com/in/sreesatya-nandivada-a5902b179" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+          <a href="https://deepomap.com/satya" target="_blank" rel="noopener noreferrer">Website</a>
         </span>
       ),
       img: Satya
@@ -64,9 +70,13 @@ function People() {
       title: "Summer Intern",
       description: "I am Josephine Patten, an undergrad at Worcester Polytechnic Institute graduating in the spring of 2024 studying biology/biotechnology. I am interested in cancer, molecular, or cellular biology research on human health and diseases.",       
       img: jose
+    },
+    {
+      name: "Dhanush Aditya Balamurugan",
+      title: "Research Assistant",
+      description: "",
+      img: Dhanu
     }
- 
-    
   ];
   return (
     <div className="people-container">
