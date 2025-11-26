@@ -1,10 +1,10 @@
 import React from 'react';
 import kiran from './images/Kiran.png';
-import Satya from './images/Satya2.png';  
-import Radha from './images/Radha.png'; 
+import Satya from './images/Satya2.png';
+import Radha from './images/Radha.png';
 import Griffin from './images/Griffin T Scott.png';
 import shabeer from './images/Shabeer.png'
-import Dhanu from './images/Dhanush.png'  
+import Dhanu from './images/Dhanush.png'
 import jose from './images/jose_sc.png'
 import Austin from './images/Austin.png'
 
@@ -30,7 +30,7 @@ function People() {
     {
       name: "Logan Schwartz",
       title: "Post-Doctoral Scholar",
-      description: " Logan Schwartz is a Postdoctoral Researcher in the lab, where her current work uses a systems biology approach to explore the complex signaling networks involved in diseases like cancer and Type 2 diabetes. Her previous research expertise includes hematopoietic stem cells, aging, immunology, and hematologic malignancies such as acute myeloid leukemia. Dr. Schwartz earned her Ph.D. in Mammalian Genetics from Tufts University in May 2024 and is committed to leveraging her research to enhance our understanding of these challenging health conditions and contribute to therapeutic advancements that could improve patient outcomes. " ,     
+      description: " Logan Schwartz is a Postdoctoral Researcher in the lab, where her current work uses a systems biology approach to explore the complex signaling networks involved in diseases like cancer and Type 2 diabetes. Her previous research expertise includes hematopoietic stem cells, aging, immunology, and hematologic malignancies such as acute myeloid leukemia. Dr. Schwartz earned her Ph.D. in Mammalian Genetics from Tufts University in May 2024 and is committed to leveraging her research to enhance our understanding of these challenging health conditions and contribute to therapeutic advancements that could improve patient outcomes. ",
       img: logan
     },
   ];
@@ -42,12 +42,7 @@ function People() {
       description: "I am currently in the final semester of the MS in Bioinformatics program here at the Roux Institute. In 2021 I graduated from McGill University with a BSc in Molecular and Cell Biology and a BA in History. I seek to use a bioinformatic approach to uncover the processes which govern resiliency, adaptability, and longevity and I have a passion for understanding the impacts of new medical technologies on society historically and in the present. ",
       img: Griffin
     },
-    {
-      name: "Austin Marty",
-      title: "PhD Student",
-      description: "",
-      img: Austin
-    }
+
   ];
 
   const GradStudents = [
@@ -68,7 +63,7 @@ function People() {
     {
       name: "Josephine Patten",
       title: "Summer Intern",
-      description: "I am Josephine Patten, an undergrad at Worcester Polytechnic Institute graduating in the spring of 2024 studying biology/biotechnology. I am interested in cancer, molecular, or cellular biology research on human health and diseases.",       
+      description: "I am Josephine Patten, an undergrad at Worcester Polytechnic Institute graduating in the spring of 2024 studying biology/biotechnology. I am interested in cancer, molecular, or cellular biology research on human health and diseases.",
       img: jose
     },
     {
@@ -82,9 +77,9 @@ function People() {
     <div className="people-container">
       <div className="principal-investigator">
         <div className="image-section">
-          <img 
+          <img
             src={kiran}
-            alt="Dr. Kiran Vanaja" 
+            alt="Dr. Kiran Vanaja"
             className="profile-image"
           />
         </div>
@@ -111,7 +106,7 @@ function People() {
           ))}
         </div>
       </div>
-      
+
       <div className="postdocs">
         <h2>Postdocs</h2>
         <div className="postdocs-grid">
